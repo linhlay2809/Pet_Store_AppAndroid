@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HelpActivity">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CÂU HỎI THƯỜNG GẶP"
+        android:textColor="@color/mau_action"
+        android:textSize="28dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="serif"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+        android:fontFamily="serif"
+        android:gravity="center|left"
+        android:text="Hướng Dẫn Các Bước Trả Hàng Hoàn Tiền"
+        android:textAllCaps="false"
+        android:textColor="#042b22"
+        android:textSize="14dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="-10dp"
+        android:backgroundTint="@color/white"
+        android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+        android:fontFamily="serif"
+        android:gravity="center|left"
+        android:text="Làm Sao Để Liên Hệ Nhân Viên Hỗ Trợ"
+        android:textAllCaps="false"
+        android:textColor="#042b22"
+        android:textSize="14dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/white"
+        android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+        android:fontFamily="serif"
+        android:gravity="center|left"
+        android:layout_marginTop="-10dp"
+        android:text="Hướng Dẫn Sử Dụng Mã Vận Chuyển"
+        android:textAllCaps="false"
+        android:textColor="#042b22"
+        android:textSize="14dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="-10dp"
+        android:backgroundTint="@color/white"
+        android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+        android:fontFamily="serif"
+        android:gravity="center_vertical"
+        android:text="Điều Kiện Trả Hàng Hoàn Tiền Là Gì"
+        android:textAllCaps="false"
+        android:textColor="#042b22"
+        android:textSize="14dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:backgroundTint="@color/white"
+        android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+        android:fontFamily="serif"
+        android:gravity="center_vertical"
+        android:text="Mất Bao Lâu Để Nhận Tiền Hoàn Sau Khi Gửi Trả Hàng Thành Công"
+        android:textAllCaps="false"
+        android:textColor="#042b22"
+        android:textSize="14dp" />
+
+</LinearLayout>

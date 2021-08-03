@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    tools:context=".MoreFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_alignParentRight="true"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/user"/>
+
+            <TextView
+                android:textColor="@color/mau_action"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="97dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="serif"
+                android:text="Đặng Quang Linh"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="97dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="37dp"
+                android:fontFamily="serif"
+                android:text="1800005419"
+                android:textSize="18dp" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="1dp"
+            android:background="@android:color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="serif"
+            android:gravity="center|bottom"
+            android:textColor="@color/mau_action"
+            android:text="Thông Tin Ứng Dụng"
+            android:textSize="30dp" />
+        <View
+            android:layout_width="320dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/mau1"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/btn_thongtin"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="Thông Tin"
+            android:textAllCaps="false"
+            android:textColor="#042b22"
+            android:textSize="17dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="-10dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_outline_payment_24"
+            android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="Tùy Chọn Thanh Toán"
+            android:textAllCaps="false"
+            android:textColor="#042b22"
+            android:textSize="17dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="-10dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_history_24"
+            android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="Lịch Sử Giao Dịch"
+            android:textAllCaps="false"
+            android:textColor="#042b22"
+            android:textSize="17dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="-10dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_outline_account_circle_24"
+            android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="Tài Khoản"
+            android:textAllCaps="false"
+            android:textColor="#042b22"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btn_trogiup"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="-10dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_help_outline_24"
+            android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="Trợ Giúp"
+            android:textAllCaps="false"
+            android:textColor="#042b22"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btn_dangxuat"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="-10dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_exit_to_app_24"
+            android:drawableRight="@drawable/ic_baseline_chevron_right_24"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="Đăng Xuất"
+            android:textAllCaps="false"
+            android:textColor="#042b22"
+            android:textSize="17dp" />
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        android:background="?android:attr/windowBackground"/>
+</RelativeLayout>
